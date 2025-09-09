@@ -41,8 +41,8 @@ const Hero = () => {
             <div className="animate-fadeIn">
               <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white mb-3 md:mb-6 leading-tight">
                 Hi, I'm{' '}
-                <span className="block text-blue-400 mt-1 md:mt-2">
-                Bradley Odwori Onyango
+                <span className="block text-blue-400 mt-1 md:mt-2 break-words">
+                Bradley Odwori
                 </span>
               </h1>
               

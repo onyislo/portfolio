@@ -75,7 +75,7 @@ const Header = () => {
           <div className="flex-1 flex md:justify-start justify-end">
             <div className="flex items-center">
               <Code className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-white'}`} />
-              <span className={`ml-2 text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
+              <span className={`ml-2 text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'} hidden sm:inline`}>
                 Bradley
               </span>
             </div>
@@ -125,7 +125,7 @@ const Header = () => {
             <div className="flex items-center">
               <Code className="h-6 w-6 text-blue-400" />
               <span className="ml-2 text-lg font-bold text-white">
-                Bradley
+                B
               </span>
             </div>
             <button
